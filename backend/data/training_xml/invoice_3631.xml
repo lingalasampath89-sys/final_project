@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Invoice><InvoiceID>INV9784</InvoiceID><Date>2026-03-08</Date><Customer><Name>Michael Johnson</Name><Email>michael.johnson@example.com</Email></Customer><Items><Item><Product>Product_18</Product><Quantity>8</Quantity><Price>366.69</Price></Item><Item><Product>Product_39</Product><Quantity>4</Quantity><Price>389.18</Price></Item><Item><Product>Product_22</Product><Quantity>6</Quantity><Price>186.03</Price></Item><Item><Product>Product_33</Product><Quantity>2</Quantity><Price>412.97</Price></Item></Items><Total>1032.69</Total></Invoice>

@@ -1,0 +1,28 @@
+
+System Status        : Successfully Executed
+
+Total XML Samples    : 1300
+Training / Testing   : 1040 / 260
+
+Total Features       : 18
+
+ML Model Used        : Random Forest
+Accuracy             : 0.731
+Precision            : 0.731
+Recall               : 0.731
+F1 Score             : 0.731
+
+Anomaly Detection    : Isolation Forest
+Anomalies Detected   : 52
+
+Key Influential Features
+ - Tag frequency
+ - XML tree depth
+ - Attribute count
+ - Numeric ratio
+ - Unique tags
+
+Final Result
+The system successfully trained machine learning models
+capable of learning XML structural patterns,
+detecting anomalies, and predicting missing tags/values.

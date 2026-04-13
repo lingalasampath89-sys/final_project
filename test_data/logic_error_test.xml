@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <metadata>
+        <source>Logic Error Generator</source>
+        <version>1.0</version>
+    </metadata>
+    <content>
+        <item id="1">
+            <name>Data Record 1</name>
+            <type>Standard</type>
+            <!-- Inconsistent: 'value' should be active for 'premium', not 'standard' -->
+            <value>HighPriority</value>
+        </item>
+        <item id="2">
+            <name>Data Record 2</name>
+            <type>Premium</type>
+            <!-- Inconsistent: 'value' should be high priority for 'premium' -->
+            <value>LowPriority</value>
+        </item>
+        <item id="3">
+            <name>Data Record 3</name>
+            <type>Unknown</type>
+            <!-- Missing: 'value' tag is missing -->
+        </item>
+    </content>
+</root>

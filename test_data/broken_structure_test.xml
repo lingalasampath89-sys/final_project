@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <metadata>
+        <source>Broken Generator</source>
+        <version>2.0</version>
+    </metadata>
+    <content>
+        <item id="101">
+            <status>Failed</status>
+            <description>Missing closing tag
+        </item>
+        <item id="102">
+            <status>Partial</status>
+            <description>Malformed attribute"
+        </item>
+        <invalid_tag>No matching root close
+</content>
+<!-- Root tag is not closed -->

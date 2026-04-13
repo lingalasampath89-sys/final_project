@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Employee><EmployeeID>EMP2312</EmployeeID><Name>David Smith</Name><Email>david.smith@example.com</Email><Department>HR</Department><Salary>92369</Salary><Age>32</Age></Employee>

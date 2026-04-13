@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+xmltodict
+pandas
+numpy
+scikit-learn
+torch
+pytest
+python-dotenv

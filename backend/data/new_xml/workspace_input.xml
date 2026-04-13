@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <data id="101">
+    <item_name>SmartAI Pro</item_name>
+    <category>Software</category>
+    <price currency="USD">299.99</price>
+    <stock_info>
+      <available>true</available>
+      <last_updated>2026-03-07</last_updated>
+    </stock_info>
+  </data>
+</root>

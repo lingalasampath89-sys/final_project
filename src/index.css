@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 25% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+    --primary: 252 85% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 25% 15%;
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 252 85% 95%;
+    --accent-foreground: 252 85% 40%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 252 85% 60%;
+    --radius: 0.75rem;
+
+    --editor-bg: 220 25% 12%;
+    --editor-fg: 220 15% 85%;
+    --editor-line: 220 20% 18%;
+    --editor-keyword: 252 85% 68%;
+    --editor-string: 140 60% 55%;
+    --editor-comment: 220 10% 45%;
+    --editor-tag: 200 80% 60%;
+    --editor-attr: 35 90% 65%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(252 85% 60%), hsl(280 80% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(252 85% 60%) 0%, hsl(200 80% 55%) 100%);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 25% 7%;
+    --foreground: 220 15% 92%;
+    --card: 220 25% 10%;
+    --card-foreground: 220 15% 92%;
+    --popover: 220 25% 10%;
+    --popover-foreground: 220 15% 92%;
+    --primary: 252 85% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 20% 16%;
+    --secondary-foreground: 220 15% 85%;
+    --muted: 220 20% 14%;
+    --muted-foreground: 220 10% 55%;
+    --accent: 252 50% 18%;
+    --accent-foreground: 252 85% 75%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 252 85% 65%;
+
+    --editor-bg: 220 25% 8%;
+    --editor-fg: 220 15% 85%;
+    --editor-line: 220 20% 12%;
+    --editor-keyword: 252 85% 72%;
+    --editor-string: 140 60% 60%;
+    --editor-comment: 220 10% 50%;
+    --editor-tag: 200 80% 65%;
+    --editor-attr: 35 90% 70%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(252 85% 65%), hsl(280 80% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(252 85% 65%) 0%, hsl(200 80% 60%) 100%);
+
+    --sidebar-background: 220 25% 8%;
+    --sidebar-foreground: 220 15% 85%;
+    --sidebar-primary: 252 85% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 14%;
+    --sidebar-accent-foreground: 220 15% 85%;
+    --sidebar-border: 220 20% 18%;
+    --sidebar-ring: 252 85% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-foreground font-sans bg-background;
+  }
+}
+
+/* Editor syntax highlighting */
+.syntax-keyword { color: hsl(var(--editor-keyword)); }
+.syntax-string { color: hsl(var(--editor-string)); }
+.syntax-comment { color: hsl(var(--editor-comment)); font-style: italic; }
+.syntax-tag { color: hsl(var(--editor-tag)); }
+.syntax-attr { color: hsl(var(--editor-attr)); }
+.syntax-punctuation { color: hsl(var(--editor-fg)); opacity: 0.6; }
+
+.editor-panel {
+  background: hsl(var(--editor-bg));
+  color: hsl(var(--editor-fg));
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.editor-line-number {
+  color: hsl(var(--editor-comment));
+  user-select: none;
+  min-width: 3rem;
+  text-align: right;
+  padding-right: 1rem;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { transform: scale(1); opacity: 0.1; }
+  50% { transform: scale(1.05); opacity: 0.2; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s infinite ease-in-out;
+}
+
+/* New Premium UI Utilities */
+.glass-effect {
+  @apply bg-white/10 dark:bg-black/20 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-2xl;
+}
+
+.cyber-card {
+  @apply glass-effect transition-all duration-300 hover:scale-[1.02] hover:shadow-emerald-500/20 active:scale-100;
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+.neural-gradient {
+  @apply bg-gradient-to-br from-emerald-500 via-cyan-500 to-emerald-600;
+}
+
+.card-hover-bright {
+  @apply transition-all duration-300 hover:brightness-110 hover:contrast-125;
+}

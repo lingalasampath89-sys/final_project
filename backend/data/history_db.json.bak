@@ -1,0 +1,733 @@
+{
+  "scans": [
+    {
+      "id": 1,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 03:38:49",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 2,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 03:43:41",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 3,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 03:47:48",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 4,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 03:49:16",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 5,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 03:49:30",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 6,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 03:55:56",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 7,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 03:58:17",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 8,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 03:58:51",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 9,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:00:32",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 10,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:01:16",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 11,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:01:17",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 12,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:01:39",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 13,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:03:37",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 14,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:04:46",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 15,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:04:47",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 16,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:04:49",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 17,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:04:50",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 18,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:07:54",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 19,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:08:34",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 20,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:08:43",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 21,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:10:36",
+      "structure_summary": "Adaptive Structural Hierarchical Model",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 506
+    },
+    {
+      "id": 22,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:12:07",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 23,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:13:14",
+      "structure_summary": "High-Density Data Topology",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 24,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:13:31",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 25,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:14:08",
+      "structure_summary": "High-Density Data Topology",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 1
+    },
+    {
+      "id": 26,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:18:22",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 1
+    },
+    {
+      "id": 27,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:19:48",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 1
+    },
+    {
+      "id": 28,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:20:32",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 1
+    },
+    {
+      "id": 29,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:20:55",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 1
+    },
+    {
+      "id": 30,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:25:11",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 1
+    },
+    {
+      "id": 31,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:25:19",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 32,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:29:27",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 33,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:32:08",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 34,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:33:45",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 35,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:35:59",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 36,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:39:56",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 37,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:42:11",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 38,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:48:49",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 39,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:49:11",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 40,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:49:17",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 41,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:49:25",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 42,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:51:47",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 43,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:52:14",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 44,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:52:25",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 45,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:52:30",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 46,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:52:44",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 47,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:52:50",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 48,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:52:59",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 49,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:53:07",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 50,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 04:56:21",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 51,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:02:06",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 52,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:02:21",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 53,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:02:39",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 54,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:02:44",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 55,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:04:21",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 56,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:05:25",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 57,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:05:41",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 58,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:05:46",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 59,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:05:47",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 60,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:05:48",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 61,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:05:49",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 62,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:06:24",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 2
+    },
+    {
+      "id": 63,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:06:42",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 64,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:11:51",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 65,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:12:11",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 66,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:12:16",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 67,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:12:27",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 68,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:16:00",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 69,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:17:24",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 1
+    },
+    {
+      "id": 70,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:17:35",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 71,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:17:51",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 72,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:17:59",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 73,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:19:52",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 74,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:23:32",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 75,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:25:49",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 76,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:26:31",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 77,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:27:57",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 78,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:29:29",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 79,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:31:33",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 80,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:35:16",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 81,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-12 05:35:46",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    }
+  ]
+}

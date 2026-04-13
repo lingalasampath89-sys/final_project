@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <metadata>
+        <source>Sample Generator</source>
+        <version>1.0</version>
+    </metadata>
+    <content>
+        <item id="1">
+            <name>Data Record 1</name>
+            <type>Standard</type>
+            <value>Success</value>
+        </item>
+        <item id="2">
+            <name>Data Record 2</name>
+            <type>Premium</type>
+            <value>Active</value>
+        </item>
+    </content>
+</root>
