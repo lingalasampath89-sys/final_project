@@ -3,8 +3,8 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { ThemeProvider } from "@/lib/theme";
-import { AuthProvider, useAuth } from "@/lib/auth";
+import { ThemeProvider } from "./lib/theme";
+import { AuthProvider, useAuth } from "./lib/auth";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import Navbar from "@/components/Navbar";
 import Index from "./pages/Index";
@@ -105,7 +105,7 @@ const AppRoutes = () => {
 };
 
 const App = () => (
-  <GoogleOAuthProvider clientId="517246536021-4sq6b9qknaoethgglfveh9hsvliaft21.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId="255296446827-pgjcl7g5oa8sg851c28k8u4jh6n0272l.apps.googleusercontent.com">
     <QueryClientProvider client={queryClient}>
       <ThemeProvider>
         <AuthProvider>
