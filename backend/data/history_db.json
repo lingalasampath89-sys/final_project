@@ -224,6 +224,96 @@
       "total_anomalies": 2,
       "missing_tags_count": 0,
       "missing_values_count": 0
+    },
+    {
+      "id": 26,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:38:56",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 27,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:45:12",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 28,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:46:49",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 29,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:46:52",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 30,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:46:53",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 31,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:46:54",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 32,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:46:55",
+      "structure_summary": "ML Inference Engine",
+      "total_anomalies": 0,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 33,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:46:57",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 34,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:46:58",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
+    },
+    {
+      "id": 35,
+      "filename": "workspace_input.xml",
+      "timestamp": "2026-04-15 15:48:07",
+      "structure_summary": "Linear Sequential Schema",
+      "total_anomalies": 2,
+      "missing_tags_count": 0,
+      "missing_values_count": 0
     }
   ]
 }
