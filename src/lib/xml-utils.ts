@@ -1,6 +1,6 @@
-const UPLOAD_API = "http://localhost:8000/upload_xml";
-const PROCESS_API = "http://localhost:8000/process_xml";
-const BASE_API = "http://localhost:8000";
+const BASE_API = import.meta.env.VITE_API_URL || "https://final-project-3-yeop.onrender.com";
+const UPLOAD_API = `${BASE_API}/upload_xml`;
+const PROCESS_API = `${BASE_API}/process_xml`;
 
 export async function uploadXmlFile(file: File | Blob, filename: string) {
   const formData = new FormData();

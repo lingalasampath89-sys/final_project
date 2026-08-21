@@ -74,7 +74,8 @@ const Dashboard = () => {
 
   const loadData = async () => {
     try {
-      const response = await fetch(`http://localhost:8000/get_history?cb=${Date.now()}`, {
+      const BASE_API = import.meta.env.VITE_API_URL || "https://final-project-3-yeop.onrender.com";
+      const response = await fetch(`${BASE_API}/get_history?cb=${Date.now()}`, {
         cache: "no-store"
       });
       const db = await response.json();
@@ -164,7 +165,8 @@ const Dashboard = () => {
   const clearData = async () => {
     if (window.confirm("Purge Neural Telemetry Logs? This cannot be undone.")) {
       try {
-        await fetch("http://localhost:8000/clear_history", { method: "POST" });
+        const BASE_API = import.meta.env.VITE_API_URL || "https://final-project-3-yeop.onrender.com";
+        await fetch(`${BASE_API}/clear_history`, { method: "POST" });
         localStorage.removeItem("smartai_activity");
         loadData();
       } catch (error) { console.error("Clear History Error:", error); }
