@@ -4,3 +4,4 @@ xmltodict
 pytest
 python-dotenv
 python-multipart
+numpy
