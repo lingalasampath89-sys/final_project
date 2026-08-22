@@ -412,14 +412,14 @@ export default function Workspace() {
   };
 
   return (
-    <div className="flex flex-1 h-[calc(100vh-64px)] bg-slate-50 dark:bg-[#020617] overflow-hidden relative font-sans text-slate-900 dark:text-neutral-100 select-none antialiased">
-      <div className="w-[45%] p-6 flex flex-col gap-4 border-r border-emerald-500/10 bg-white/40 dark:bg-black/20 backdrop-blur-3xl relative z-10 transition-all overflow-y-auto custom-scrollbar">
+    <div className="flex flex-col lg:flex-row h-[calc(100vh-64px)] bg-slate-50 dark:bg-[#020617] overflow-hidden relative font-sans text-slate-900 dark:text-neutral-100 select-none antialiased">
+      <div className="w-full lg:w-[45%] p-6 flex flex-col gap-4 border-b lg:border-b-0 lg:border-r border-emerald-500/10 bg-white/40 dark:bg-black/20 backdrop-blur-3xl relative z-10 transition-all overflow-y-auto custom-scrollbar">
         <div className="flex justify-between items-start">
            <div><h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-emerald-500 to-green-600 tracking-tighter uppercase italic drop-shadow-xl dark:shadow-2xl">Neural Lab</h1><p className="text-emerald-500/60 text-[10px] font-black uppercase tracking-[0.5em] mt-2 animate-pulse italic">Synchronizing Neural Pathing...</p></div>
            
            <div className="flex items-center gap-2">
              {Object.keys(outputs).length > 0 && (
-               <div className="flex bg-emerald-500/10 border border-emerald-500/20 rounded-full p-1 mr-4 shadow-inner">
+               <div className="hidden md:flex bg-emerald-500/10 border border-emerald-500/20 rounded-full p-1 mr-4 shadow-inner">
                  <Button variant="ghost" onClick={() => handleExport('xml')} className="h-9 px-3 rounded-full text-xs font-bold text-emerald-400 hover:bg-emerald-500/20 uppercase tracking-widest"><FileCode2 className="h-4 w-4 mr-1"/> XML</Button>
                  <Button variant="ghost" onClick={() => handleExport('json')} className="h-9 px-3 rounded-full text-xs font-bold text-emerald-400 hover:bg-emerald-500/20 uppercase tracking-widest"><FileJson className="h-4 w-4 mr-1"/> JSON</Button>
                  <Button variant="ghost" onClick={() => handleExport('csv')} className="h-9 px-3 rounded-full text-xs font-bold text-emerald-400 hover:bg-emerald-500/20 uppercase tracking-widest"><TableIcon className="h-4 w-4 mr-1"/> CSV</Button>
@@ -429,16 +429,16 @@ export default function Workspace() {
              {isDiffMode ? <Button onClick={() => setIsDiffMode(false)} className="bg-emerald-600 hover:bg-emerald-500 text-slate-900 dark:text-white shadow-xl h-11 px-8 rounded-full font-black uppercase text-[10px] tracking-widest italic transition-transform hover:scale-105 active:scale-95 group">Exit Diff <ArrowRight className="h-3 w-3 ml-2 group-hover:translate-x-1 transition-transform" /></Button> : <Button variant="ghost" onClick={clearInput} className="h-11 w-11 p-0 rounded-full bg-red-900/10 text-red-500 border border-red-900/20 transition-all hover:bg-red-900/20 hover:scale-110 active:scale-90"><Trash2 className="h-5 w-5" /></Button>}
            </div>
         </div>
-        <div className="flex-1 min-h-0 rounded-[48px] overflow-hidden border border-emerald-500/20 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.8)] relative bg-white/80 dark:bg-black/60 group/editor transition-all">
+        <div className="flex-1 min-h-[300px] rounded-[48px] overflow-hidden border border-emerald-500/20 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.8)] relative bg-white/80 dark:bg-black/60 group/editor transition-all">
           {loading && <div className="absolute inset-0 z-50 pointer-events-none overflow-hidden rounded-[48px]"><div className="absolute top-0 left-0 right-0 h-1.5 bg-emerald-400 animate-laser-move shadow-[0_0_20px_rgba(52,211,153,1)]" /></div>}
           <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-transparent pointer-events-none rounded-[48px] group-hover/editor:opacity-100 opacity-0 transition-opacity duration-1000" />
           {isDiffMode ? (<DiffEditor key="diff" height="100%" language="xml" theme={isDark ? "vs-dark" : "light"} original={originalXml} modified={xml} options={{ renderSideBySide: true, minimap: { enabled: false }, fontSize: 13, wordWrap: 'on', padding: { top: 32 } }} />) : (<Editor key="main" height="100%" language="xml" theme={isDark ? "vs-dark" : "light"} value={xml} onChange={(v) => setXml(v || "")} options={{ minimap: { enabled: false }, fontSize: 14, wordWrap: 'on', padding: { top: 32 }, cursorBlinking: "smooth" }} />)}
         </div>
-        <div className="grid grid-cols-3 gap-4 items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 items-center">
           <input type="file" ref={fileRef} onChange={uploadFile} className="hidden" accept=".xml,.xsd,.xhtml" multiple />
           <Button variant="outline" onClick={() => fileRef.current?.click()} className="h-14 rounded-[20px] border-emerald-900/40 bg-transparent text-emerald-400 hover:bg-emerald-900/20 font-black border-2 transition-all uppercase text-[9px] tracking-widest shadow-inner group overflow-hidden relative"><Layers className="h-4 w-4 mr-1 group-hover:rotate-12 transition-transform" /> Upload</Button>
           <Button onClick={runInfer} disabled={loading} className="h-14 rounded-[20px] bg-gradient-to-r from-emerald-600 to-emerald-800 text-slate-900 dark:text-white shadow-xl dark:shadow-2xl font-black uppercase text-[9px] tracking-widest hover:scale-[1.02] active:scale-95 transition-all group overflow-hidden relative">{loading ? <div className="animate-spin h-5 w-5 border-2 border-white/30 border-t-white rounded-full" /> : <div className="flex items-center gap-2"><Cpu className="h-4 w-4 group-hover:scale-125 transition-transform" /> Infer</div>}</Button>
-          <Button onClick={handleAutoFix} disabled={loading} className="h-14 rounded-[20px] bg-[#0A0A10] border-2 border-emerald-500/30 text-emerald-400 font-black uppercase text-[9px] shadow-inner hover:border-emerald-500/60 hover:text-slate-900 dark:text-white transition-all group"><Zap className="h-4 w-4 mr-1 text-emerald-500" /> Heal</Button>
+          <Button onClick={handleAutoFix} disabled={loading} className="hidden md:flex h-14 rounded-[20px] bg-[#0A0A10] border-2 border-emerald-500/30 text-emerald-400 font-black uppercase text-[9px] shadow-inner hover:border-emerald-500/60 hover:text-slate-900 dark:text-white transition-all group"><Zap className="h-4 w-4 mr-1 text-emerald-500" /> Heal</Button>
         </div>
 
         {/* Multi-File Selector Strip */}
@@ -462,13 +462,13 @@ export default function Workspace() {
           </div>
         )}
       </div>
-      <div className="w-[55%] flex flex-col bg-white/60 dark:bg-black/40 border-l border-emerald-500/10 relative transition-all">
+      <div className="w-full lg:w-[55%] flex flex-col bg-white/60 dark:bg-black/40 border-l border-emerald-500/10 relative transition-all">
         <div className="p-6 border-b border-emerald-500/10 bg-emerald-500/5 backdrop-blur-md relative z-20">
            <div className="flex justify-between items-center mb-4">
              <h3 className="text-[10px] font-black text-emerald-500/90 uppercase px-4 flex items-center gap-2 tracking-[0.4em] italic"><Brain className="h-4 w-4 text-emerald-500" /> Intelligent Suite</h3>
              <div className="flex items-center gap-3">
                {Object.keys(outputs).length > 0 && (
-                 <div className="flex items-center gap-1 bg-black/30 dark:bg-black/50 border border-emerald-500/20 rounded-full px-2 py-1">
+                 <div className="hidden md:flex items-center gap-1 bg-black/30 dark:bg-black/50 border border-emerald-500/20 rounded-full px-2 py-1">
                    <span className="text-[7px] font-black uppercase tracking-widest text-emerald-500/50 px-2 italic">Export</span>
                    <button onClick={() => handleExport('xml')} className="flex items-center gap-1 px-2.5 py-1.5 rounded-full text-[8px] font-black text-blue-400 hover:bg-blue-500/20 transition-all uppercase tracking-wider"><FileCode2 className="h-3 w-3" /> XML</button>
                    <button onClick={() => handleExport('json')} className="flex items-center gap-1 px-2.5 py-1.5 rounded-full text-[8px] font-black text-amber-400 hover:bg-amber-500/20 transition-all uppercase tracking-wider"><FileJson className="h-3 w-3" /> JSON</button>
@@ -476,14 +476,14 @@ export default function Workspace() {
                    <button onClick={() => handleExport('xsd')} className="flex items-center gap-1 px-2.5 py-1.5 rounded-full text-[8px] font-black text-red-400 hover:bg-red-500/20 transition-all uppercase tracking-wider"><Braces className="h-3 w-3" /> XSD</button>
                  </div>
                )}
-               <div className="flex items-center gap-2"><div className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,1)]" /><span className="text-[7px] font-black uppercase tracking-tighter text-emerald-500/60 italic">Neural Sync Active</span></div>
+               <div className="hidden md:flex items-center gap-2"><div className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,1)]" /><span className="text-[7px] font-black uppercase tracking-tighter text-emerald-500/60 italic">Neural Sync Active</span></div>
              </div>
            </div>
            <div className="flex flex-wrap gap-2.5 px-2">
              {TABS.map((t) => (<button key={t} onClick={() => setTab(t)} className={`px-5 py-2.5 rounded-full text-[9px] font-black uppercase tracking-widest transition-all duration-300 relative group overflow-hidden ${tab === t ? "bg-emerald-500 text-black shadow-xl translate-y-[-2px]" : "bg-white/80 dark:bg-black/60 text-emerald-500/60 border border-emerald-500/20 hover:bg-emerald-900/20 hover:text-emerald-400"}`}>{t.replace("_", " ")}</button>))}
            </div>
         </div>
-        <div className="flex-1 overflow-auto p-10 scroll-smooth custom-scrollbar relative bg-slate-50 dark:bg-[#020617]/40 shadow-inner group/viewer transition-all">
+        <div className="flex-1 overflow-auto p-6 md:p-10 scroll-smooth custom-scrollbar relative bg-slate-50 dark:bg-[#020617]/40 shadow-inner group/viewer transition-all">
            <div className="max-w-6xl mx-auto h-full">{renderTabContent()}</div>
         </div>
       </div>

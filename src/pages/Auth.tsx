@@ -114,6 +114,22 @@ const Auth = () => {
     }
   };
 
+  const handleDemoLogin = () => {
+    setLoading(true);
+    setTimeout(() => {
+      signIn({
+        id: "demo-user-123",
+        email: "demo@neural.lab",
+        user_metadata: {
+          display_name: "Demo User",
+          avatar_url: "https://api.dicebear.com/7.x/bottts/svg?seed=demo@neural.lab"
+        }
+      });
+      toast.success("Logged in as Demo User!");
+      setLoading(false);
+    }, 500);
+  };
+
   return (
     <div className="flex min-h-screen">
       {/* Left: Auth Form */}
@@ -195,18 +211,15 @@ const Auth = () => {
             </div>
 
             <div className="flex justify-center w-full">
-              <GoogleLogin
-                onSuccess={handleGoogleSuccess}
-                onError={() => {
-                  toast.error('Google Auth Failed');
-                }}
-                useOneTap
-                theme="outline"
-                size="large"
-                shape="pill"
-                text="continue_with"
-                width="320px"
-              />
+              <Button 
+                type="button" 
+                variant="outline" 
+                className="w-full h-12 border-primary/50 text-primary hover:bg-primary/10 transition-all font-semibold"
+                onClick={handleDemoLogin}
+                disabled={loading}
+              >
+                1-Click Demo Login
+              </Button>
             </div>
 
             <p className="text-center text-sm text-muted-foreground">
